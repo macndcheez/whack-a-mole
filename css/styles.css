@@ -1,0 +1,22 @@
+body {
+    background: lightblue;
+    color: rgb(26, 140, 155)
+}
+
+#scoreboard {
+    text-align: center;
+    border: 1px solid #eaeaea;
+}
+
+#grid {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background: plum;
+    box-shadow: inset 0 0 0 1px rgb(188, 41, 156);
+}
